@@ -73,6 +73,7 @@ hr {
     display: flex;
     flex-direction: row;
     padding: 50px;
+    justify-content: center;
 }
 
 .flex_item h1{
@@ -94,6 +95,25 @@ h2 {
 ul {
     width: 50%;
     margin-left: auto;
+    list-style: none;
+}
+
+li{
+    font-size: 24px;
+}
+
+#myUX{
+    padding: 50px;
+    text-align: left;
+    background-color: #81cae3;
+    border: solid 1px;
+}
+
+#myUI{
+    padding: 50px;
+    text-align: left;
+    background-color: #81cae3;
+    border: solid 1px;
 }
 
 .mySkills {
